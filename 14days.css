@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.guess {
+    background-color: #433e3e;
+    color: aliceblue;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.time {
+    font-size: 18px;
+    margin-left: 15px;
+    padding-top: 10px;
+    border: solid 2px black;
+    width: 25%;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-radius: 10Px;
+    background-color: rgba(0, 0, 0, 0.808);
+    box-shadow: 3px 3px 10px 1px;
+}
+
+.week2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.del-style {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo {
+    display: inline-block;
+    gap: 10px;
+    align-items: center;
+}
+
+.todoButton {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.todoInput {
+    padding: 6px;
+}
+
+.todogrip {
+    display: grid;
+    grid-template-columns: 300px 100px;
+    gap: 10px;
+    align-items: stretch;
+
+}
